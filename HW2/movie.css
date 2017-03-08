@@ -1,0 +1,123 @@
+/*
+Name: Xiaoye Jin
+Section: MSIS 2630 - Assignment 2
+Description: This is a properly formated CSS file for tmnt.html
+*/
+
+body {
+	background-image: url("background.png");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, Sans-Serif;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	text-shadow: 3px 3px #999999;
+}
+
+.banner {
+	background-image: url("bannerbg.png");
+	text-align: center;
+	background-repeat: repeat-x;
+}
+
+.main-panel {
+	width: 800px;
+	margin-left: auto;
+	margin-right:auto;
+	border: 4px solid gray;
+	border-radius: 20px;
+	overflow: auto;
+}
+
+.main-content {
+	overflow: auto;
+}
+
+.left-panel {
+	float: left;
+	width: 550px;
+}
+
+.review-score {
+	background-image: url("rbg.png");
+	background-repeat: repeat-x;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+}
+
+.col {
+	width: 47%;
+}
+
+.col:nth-child(1) {
+	float: left;
+	padding-left: 2%;
+}
+
+.col:nth-child(2) {
+	float: right;
+	padding-right: 2%;
+}
+
+.review-panel img {
+	margin-right: 5px;
+	float: left;
+}
+
+.review-panel p {
+	overflow: auto;
+}
+.review-panel p:nth-child(odd) {
+	padding: 8px;
+	font-weight: bold;
+	background-color: #E8DC9B;
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+
+.review-panel p:nth-child(even) {
+	margin-bottom: 20pt;
+}
+
+.publication {
+	font-style: italic;
+}
+
+.right-panel {
+	float: right;
+	width: 250px;
+	background-color: #A2B964;
+}
+
+.right-panel dl { 
+	padding: 10pt;
+	font-family: Arial;
+}
+
+.right-panel dt {
+	margin-top: 10pt;
+	font-weight: bold;
+}
+
+.right-panel ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer {
+	padding: 5px;
+	text-align: center;
+	background-color: #A2B964;
+}
+
+.validator {
+	position: fixed;
+	right: 1%;
+	bottom: 1%;
+}
